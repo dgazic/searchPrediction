@@ -15,6 +15,10 @@ describe('suggestionTool', function() {
         let result = suggestionTool()
         assert.isObject(result)
     })
+    it('suggestionTool lizlistava listu rijeci', function () {
+        let result = suggestionTool()
+        assert.isObject(result)
+    })
     
 });
 
