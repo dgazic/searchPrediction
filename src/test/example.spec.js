@@ -8,9 +8,13 @@ const suggestionTool = require("../suggestion");
 //funkcija ne smije biti dulja od 5-6 redaka
 
 describe('suggestionTool', function() {
-    it('suggestionTool should be a function', function () {
+    it('suggestionTool mora biti funkcija', function () {
         suggestionTool();
     });
+    it('suggestionTool mapira sljedece rijeci', function () {
+        let result = suggestionTool()
+        assert.isObject(result)
+    })
     
 });
 
