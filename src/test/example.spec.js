@@ -17,7 +17,7 @@ describe('suggestionTool', function() {
     })
     it('suggestionTool lizlistava listu rijeci', function () {
         let result = suggestionTool()
-        assert.isObject(result)
+        assert.isArray(result)
     })
     
 });
